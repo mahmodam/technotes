@@ -29,6 +29,11 @@ function App() {
       <Route index element={<Public />} />
       <Route path="login" element={<Login />} />
 
+      {/* הוספה */}
+      {/* <Route path="user">
+        <Route path="new" element={<NewUserForm />} />
+      </Route> */}
+
       {/* private routes */}
       <Route element={<PersistLogin />}>
         {/* allowedRoles={[...Object.values(ROLES)]} אפשר גם ROLES.ADMIN או ROLES.MANAGER או ROLES.EMPLOYEE */}
