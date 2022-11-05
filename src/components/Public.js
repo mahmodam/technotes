@@ -8,28 +8,27 @@ function Public() {
     <section className="public">
       <header>
         <h1>
-          Welcome to <span className="nowrap">Mahmod Repairs!</span>
+          Welcome to <span className="nowrap"> Technotes </span>
         </h1>
+        <Link to="/login">Employee Login</Link>
       </header>
       <main className="public__main">
         <p>
-          Located in Beautiful Downtown Foo City, Dan D. Repairs provides a
-          trained staff ready to meet your tech repair needs.
+          We are a small family business that has been in operation for over 30
+          years. You can login to your account and create your own notes.
         </p>
         <address className="public__addr">
-          Dan D. Repairs
+          Our address is: 1234 Main Street, Anytown, USA
           <br />
           555 Foo Drive
           <br />
           Foo City, CA 12345
           <br />
-          <a href="tel:+15555555555">(555) 555-5555</a>
+          <a href="tel:+972584443338">tel: +972 0584443338</a>
         </address>
-        <br />
-        <p>Owner: Mahmod</p>
       </main>
       <footer>
-        <Link to="/login">Employee Login</Link>
+        <p>Owner: Mahmod's Technotesltd</p>
       </footer>
     </section>
   );
