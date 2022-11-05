@@ -1,9 +1,9 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 import { setCredentials } from "../../features/auth/authSlice";
 
-//  "https://technotes-api.onrender.com" במקום "http://localhost:3500" כדי להתחבר לשרת המרוחק
+//  https://technotes-api-3vhs.onrender.com במקום "http://localhost:3500" כדי להתחבר לשרת המרוחק
 const baseQuery = fetchBaseQuery({
-  baseUrl: "https://technotes-api.onrender.com",
+  baseUrl: "https://technotes-api-3vhs.onrender.com",
   credentials: "include",
   prepareHeaders: (headers, { getState }) => {
     const token = getState().auth.token;
